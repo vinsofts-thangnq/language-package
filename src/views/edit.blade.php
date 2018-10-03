@@ -24,7 +24,7 @@
         <div class="panel-body">
 
 
-          <form method="POST" action="{{ url('edit') }}" name="frmAdd">
+          <form method="POST" action="{{ url('edit/'.$data->id) }}" name="frmAdd">
             <div class="form-group">
               <label for="lblHoTen">in_code</label>
               <input type="text" class="form-control" name="txt1" value="{!! old('txt1',isset($data) ? $data['in_code'] :null)!!}" />
