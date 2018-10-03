@@ -1,0 +1,12 @@
+{
+    "name": "thangbeo/languages",
+    "description": "translate language",
+    "authors": [
+        {
+            "name": "vinsofts-thangnq",
+            "email": "thangnq@vinsofts.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
